@@ -26,7 +26,7 @@ const char print_task[] = ""
         "CLS\r\n"
         "CODEPAGE 1252\r\n"
         "TEXT 0,5,\"3\",0,1,1,\"It's working!\"\r\n"
-        "PRINT 1,1\r\n
+        "PRINT 1,1\r\n";
 
 int main() {
     USBHostPrinter host;
