@@ -50,6 +50,6 @@ add_dependencies(USBHost_STM32_printer USBHost_STM32_core)
 
 add_library(USBHost_STM32::Core ALIAS USBHost_STM32_core)
 add_library(USBHost_STM32::HID ALIAS USBHost_STM32_hid)
-add_library(USBHost_STM32::HUB ALIAS USBHost_STM32_hub)
+add_library(USBHost_STM32::Hub ALIAS USBHost_STM32_hub)
 add_library(USBHost_STM32::MSD ALIAS USBHost_STM32_msd)
 add_library(USBHost_STM32::Printer ALIAS USBHost_STM32_printer)
